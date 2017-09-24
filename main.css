@@ -1,0 +1,398 @@
+/********************************************
+GENERAL
+********************************************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+#wrapper {
+    /*max-width: 940px;*/
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration:none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+h1, p, h4 {
+	text-align: center;
+	color: black;
+}
+
+
+li {
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/********************************************
+HEADING
+********************************************/
+
+#logo {
+ 	float: center;
+ 	margin-left: 3%;
+}
+
+header {
+    float: left;
+    margin: 0;
+    margin-top: 1%;
+    padding: 0;
+    width: 100%;
+    clear: right;
+}
+
+/********************************************
+NAVIGATION, FOOTER
+********************************************/
+
+nav{
+    text-align:right;
+    padding: 0;
+    margin: 0;
+    margin-top: -1%;
+}
+
+footer {
+    display: block;
+    float: center;
+    text-align: center;
+    clear: both;
+    background-color: #FF6666;
+    background-color: #000000;
+    background-color: #7851a9;
+    /*background-color: #ff8585;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+nav ul, footer ul {
+    /*list-style-type: none;*/
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 10px 10px;
+}
+
+footer a {
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right:20px;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    float: center;
+}
+
+.form {
+    float: center;
+    text-align: center;
+}
+
+
+/********************************************
+JUMBOS
+********************************************/
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
+.jumbo, .jumbo-aboutme, .jumbo-Games, .jumbo-Film, .jumbo-photography, .jumbo-design, .jumbo-press {
+	position: relative;
+    background: #000 url("img/HeaderImage.png") center center; 
+    width: 100%;
+    height: 600px;
+    height: 20em;
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    margin: 0; 
+    clear: both;
+}
+
+.jumbo-aboutme {
+    /*IM GOING TO NEED TO REPLACE THIS ONE*/
+    background: #000 url("img/HeaderImage.png") center center;
+    
+}
+
+.jumbo-Games {
+
+	background: #000 url("img/GameBanner2.png") center center;
+    /*background: #000 url("img/projects/JavaCode-3by2-542.png") center center;*/
+    background: #000 url("img/GameBanner2.png") center -125px;
+
+}
+
+.jumbo-Film {
+	background: #000 url("img/PhotographyHeader.jpg") center center;
+}
+
+.jumbo-photography {
+    background: #000 url("img/HeaderImage.png") -100px -600px;
+    background: #000 url("img/HeaderImage.png") center +1000px;
+}
+
+.jumbo-design {
+    background: #000 url("img/HeaderImage.png") -1000px center;
+    background: #000 url("img/HeaderImage.png") 0px +1300px;
+
+}
+
+.jumbo-press {
+    background: #000 url(""img/HeaderImage.png"") center center;
+    background: #000 url(""img/HeaderImage.png"") center +1440px;
+
+}
+
+/********************************************
+TEXT FIELDS
+********************************************/
+.about-me p, .developer p, .photographer p, .designer p, .school p, .films p, .press p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#press-paragraph {
+    text-decoration: none;
+    font-size: 16px;
+    font-style: none;
+}
+
+.about-me .developer, .photographer, .designer, .school, .films, .press {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 15px 0% 15px 0%;
+    margin: 0px 25% 0px 25%;
+    font-size: 18px;
+    background-color: pink;  
+    text-align: center;
+}
+
+.about-me a, .developer a, .photographer a, .designer a, .school a, .films a, .press a {
+    text-decoration:none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #FF6666;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px)
+{
+
+    #grid_element_art
+    {
+        width:94%;
+        margin: 0px 3% 0 3%;
+    }
+}
+
+
+.about-me, .developer, .photographer, .designer, .school, .films, .press {
+    display: inline-block;
+    float: center;
+    width: 80%;
+    height: auto;
+    padding: 15px 0 15px 0;
+    margin: 0 10% 0px 10%;
+    background-color: white;
+}
+
+.about-me a, .developer a, .photographer a, .designer a, .school a, .films a, .press a {
+    text-decoration: none;
+    float: left;
+    /*text-align: left;*/
+    text-align: center;
+    float: center;
+    width: 100%;
+    display: block;
+    color: blue;
+    margin-top: -10px;
+}
+
+.press a {
+    text-align: left
+}
+#centerLink {
+    float: center;
+}
+
+/********************************************
+IMAGE STRIPS
+********************************************/
+
+#grid_element, iframe {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: auto;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    #grid_element, iframe {
+        width: 100%;
+    }
+}
+
+#grid_element_text {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 542px;
+    clear: right;
+    padding: 50px;
+    text-align: center;
+}
+
+#grid_element_art {
+    float: center;
+    display: inline-block;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;*/
+    clear: both;
+    margin-bottom: 30px;
+}
+
+/********************************************
+FOOTER
+********************************************/
+
+/*
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    background-color: #FF6666;
+    height: 50px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}*/
+
+
+/********************************************
+FILMS
+********************************************/
+
+#film-gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#film-gallery li{
+    list-style-type: none;
+    float: left;
+    /*margin: 0 10% 50px 10%;*/
+    width: 50%;
+    /*margin: 7.5%;*/
+    color: #bdc3c7;
+    font-style: italic;
+}
+
+#film-gallery li a p {
+    margin: 0;
+    /*padding: 5%;*/
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+#movie iframe {
+}
+
+/********************************************
+PHOTOGRAPHY
+********************************************/
+#photography_gallery {
+    
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    width: 95%;
+    /*margin: auto;
+    padding: 0;*/
+    /* For IE, the outcast */
+    /*zoom: 1;
+    *display: inline;*/
+}
+
+#photography_header {
+    position: center;
+    /*width: 100%;*/
+}
+
+
+/********************************************
+COLORS
+********************************************/
+
+/* logo text */
+h1, h2, a {
+    color: black;
+    color: #140014;
+}
+
+/* nav link */
+nav a, nav a:visited{
+    color: black;
+    color: #140014;
+
+}
+
+footer a, footer pre {
+    color: white;
+    color: black;
+}
+
+/* purple header */
+nav a.selected, nav a:hover{
+    color: #7851a9;
+}
+
+
+footer a:hover {
+    color: #FF6666;
+}
+
+.about-me a:hover, .developer a:hover, .photographer a:hover, .designer a:hover, .school a:hover, .films a:hover, .press a:hover{
+    color: #000000;
+    color: #140014;
+
+}
