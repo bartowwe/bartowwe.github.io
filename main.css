@@ -219,6 +219,7 @@ TEXT FIELDS
 }
 
 
+
 .about-me, .developer, .photographer, .designer, .school, .films, .press {
     display: inline-block;
     float: center;
@@ -284,6 +285,17 @@ IMAGE STRIPS
     margin-left: 10%;*/
     clear: both;
     margin-bottom: 30px;
+}
+
+/***
+Center Image
+****/
+
+#centerVideo, iframe {
+    float: middle;
+    display: inline-block;
+    width: 60%;
+    height: auto;
 }
 
 /********************************************
@@ -396,3 +408,5 @@ footer a:hover {
     color: #140014;
 
 }
+
+
