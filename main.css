@@ -68,6 +68,20 @@ nav{
     margin-top: -1%;
 }
 
+banner {
+    display: block;
+    float: center;
+    text-align: center;
+    clear: both;
+    background-color: #FF6666;
+    background-color: #000000;
+    background-color: #000000;
+    /*background-color: #ff8585;*/
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
 footer {
     display: block;
     float: center;
@@ -82,7 +96,7 @@ footer {
     margin-bottom: 0;
 }
 
-nav ul, footer ul {
+nav ul, banner ul, footer ul {
     /*list-style-type: none;*/
 }
 
@@ -93,6 +107,12 @@ nav ul li {
 nav a {
     font-weight: 800;
     padding: 10px 10px;
+}
+
+banner a {
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right:20px;
 }
 
 footer a {
@@ -388,6 +408,11 @@ nav a, nav a:visited{
 
 }
 
+banner a banner pre {
+    color: white;
+    color: black;
+}
+
 footer a, footer pre {
     color: white;
     color: black;
@@ -398,6 +423,9 @@ nav a.selected, nav a:hover{
     color: #7851a9;
 }
 
+banner a:hover {
+    color: #000000;
+}
 
 footer a:hover {
     color: #FF6666;
