@@ -33,6 +33,11 @@ h2:hover{
     letter-spacing: 5px;
 }
 
+#name a {
+    text-decoration: none;
+    color: black;
+}
+
 #description {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 75%;
