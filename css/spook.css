@@ -1,6 +1,9 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
+}
 
+body {
+    background: url('https://i.pinimg.com/originals/6e/f6/2b/6ef62b28c7e65f900ae813a377d99f51.png');
 }
 
 h2 {
@@ -13,6 +16,10 @@ h2 {
 
 h2:hover{
     color: purple;
+}
+
+nav {
+    background: none;
 }
 
 #def ul {
@@ -30,7 +37,18 @@ h2:hover{
     font-size: 300%;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+#subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: bold;
+    letter-spacing: 1px;
+    background: none;
 }
 
 #name a {
@@ -45,10 +63,16 @@ h2:hover{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
+    background: white;
 }
 
 #header {
     text-align: center;
+    background: none;
+}
+
+#header a {
+    background: none;
 }
 
 #header ul {
@@ -98,7 +122,8 @@ h2:hover{
     border-radius: 10px;
     width: 75%;
     margin: auto;
-    background:rgb(240, 240, 240);
+    background:black;
+    color: white;
     padding: 10px;
     align-content: center;
 }
@@ -185,28 +210,18 @@ h2:hover{
     text-align: left;
 }
 
-#airbnb {
+#story {
     font-family: 'Source Sans Pro', sans-serif;
-    display: none;
+    display: block;
     border: 1px none;
     border-radius: 10px;
     width: 90%;
     margin: auto;
     background:white;
+    color: black;
     padding: 20px;
     text-align: left;
-}
-
-#spooktober {
-    font-family: 'Source Sans Pro', sans-serif;
-    display: none;
-    border: 1px none;
-    border-radius: 10px;
-    width: 90%;
-    margin: auto;
-    background:white;
-    padding: 20px;
-    text-align: left;
+    white-space: pre-wrap;
 }
 
 #aboutme {
