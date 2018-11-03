@@ -221,6 +221,10 @@ h2:hover{
     text-align: left;
 }
 
+#testingupdate {
+    display: none;
+}
+
 #aboutme {
     font-family: 'Source Sans Pro', sans-serif;
     display: block;
