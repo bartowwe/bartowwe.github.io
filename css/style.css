@@ -209,6 +209,18 @@ h2:hover{
     text-align: left;
 }
 
+#cheapestRide {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+    border: 1px none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    text-align: left;
+}
+
 #aboutme {
     font-family: 'Source Sans Pro', sans-serif;
     display: block;
